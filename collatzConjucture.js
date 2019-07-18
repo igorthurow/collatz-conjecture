@@ -18,4 +18,4 @@ const collatz = (limit) => {
     return moreSteps
 }
 
-collatz(1000000) // { steps: 524, number:  837799}
+collatz(1000000) // { steps: 524, number:  837799 }
