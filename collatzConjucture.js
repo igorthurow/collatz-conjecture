@@ -5,7 +5,7 @@ const collatz = (limit) => {
         let testNumber = n
         let steps = 0
 
-        while (testNumber !== 1) {
+        while (testNumber > 1) {
             steps += 1
 
             testNumber = testNumber % 2 ? testNumber * 3 + 1 : testNumber / 2
